@@ -1,0 +1,42 @@
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:12:25 on Mar 31,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rst_n
+add wave -position end  sim:/testbench/out
+run
+add wave -position end  sim:/testbench/dut/pre
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 11:21:02 on Mar 31,2026, Elapsed time: 0:08:37
+# Errors: 0, Warnings: 1
+# Compile of seq_101.v was successful.
+# Compile of seq_101.v was successful.
+# Compile of testbench.v was successful.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 11:29:43 on Mar 31,2026
+# Loading work.testbench
+# Loading work.seq_101
+add wave -position end  sim:/testbench/in
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/rst_n
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/state
+add wave -position end  sim:/testbench/dut/pre
+run
+quit -sim
+# End time: 11:33:31 on Mar 31,2026, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 4
