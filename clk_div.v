@@ -19,7 +19,7 @@ module  clk_div(clk_out,clk_led,clk_in);
  output reg clk_led = 1'b0;
  
  // 1s clock @50MHz
- parameter integer TICKS_500MS = 25_000_000; // no. of ticks per 0.5s
+ parameter integer TICKS_500MS = 75_000_000; // no. of ticks per 0.5s
  reg [24:0] tick_cnt = 25'b0; // count 0..24_999_999
  
  always@(posedge clk_in) begin
